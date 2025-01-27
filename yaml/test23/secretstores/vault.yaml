@@ -23,7 +23,7 @@ spec:
           # Path where the Kubernetes authentication backend is mounted in Vault
           mountPath: "kubernetes"
           # A required field containing the Vault Role to assume.
-          role: "cluster-read"
+          role: "ou_cluster_ns_read"
           # Optional service account field containing the name
           # of a kubernetes ServiceAccount
           serviceAccountRef:
