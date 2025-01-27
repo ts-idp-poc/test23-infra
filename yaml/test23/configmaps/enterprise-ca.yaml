@@ -1,7 +1,7 @@
 kind: ConfigMap
 metadata:
   name: enterprise-ca
-  namespace: default
+  namespace: test23
 apiVersion: v1
 data:
   ca.crt: |-
